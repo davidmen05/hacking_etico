@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecciona un módulo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="panel-body">
+
+    <div class="panel-container">
+        <h1 class="panel-title">Selecciona un módulo</h1>
+        <p class="panel-subtitle">Elige a dónde quieres ir</p>
+
+        <div class="panel-buttons">
+            <a href="{{ url_for('main.home') }}" class="panel-btn">
+                <span class="panel-icon">🏠</span>
+                <span class="panel-label">Inicio</span>
+                <span class="panel-desc">Ver la página principal del proyecto</span>
+            </a>
+
+            <a href="{{ url_for('users.user', name='david') }}" class="panel-btn">
+                <span class="panel-icon">👤</span>
+                <span class="panel-label">Perfil</span>
+                <span class="panel-desc">Ver el panel personal del usuario</span>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

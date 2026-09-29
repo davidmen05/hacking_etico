@@ -1,4 +1,4 @@
-# Hacking Ético - Curso de Desarrollo Web Full Stack
+# Hacking Ético - Curso de Desarrollo Web
 
 Repositorio con los ejercicios y proyectos del curso.
 

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Perfil de {{ name }}{% endblock %}
+
+{% block content %}
+    <h1>¡Hola {{ name }}!</h1>
+    <p>Bienvenido a tu panel personal.</p>
+
+    <h2>Tus Vulnerabilidades</h2>
+    <ul>
+        <li>SQL Injection - Pendiente</li>
+        <li>XSS - En revisión</li>
+    </ul>
+
+    <p><a href="/">Volver al inicio</a></p>
+{% endblock %}
